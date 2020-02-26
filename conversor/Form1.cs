@@ -36,6 +36,7 @@ namespace conversor
             {
              MessageBox.Show("Error en la introduccion de Datos", "Conversores", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            errorProvider1.SetError(txtCifra, "");
         }
 
         private void cboTipo_SelectedIndexChanged(object sender, EventArgs e)
