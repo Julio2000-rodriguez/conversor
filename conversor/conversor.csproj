@@ -53,6 +53,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="formulario de prueba para ver si funciona el fork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulario de prueba para ver si funciona el fork.Designer.cs">
+      <DependentUpon>formulario de prueba para ver si funciona el fork.cs</DependentUpon>
+    </Compile>
     <Compile Include="principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulario de prueba para ver si funciona el fork.resx">
+      <DependentUpon>formulario de prueba para ver si funciona el fork.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="principal.resx">
       <DependentUpon>principal.cs</DependentUpon>
